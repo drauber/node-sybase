@@ -1,3 +1,13 @@
+This project is forked from https://github.com/rodhoward/node-sybase
+---------
+
+Thanks for @rodhoward
+This fork has only two changes from original module.
+-JavaSybaseLink is defined to use JDBC URL in this format: jdbc:sybase:Tds:<host>:<port>?ServiceName=<DBNAME>
+-SybaseDB.js is adjusted for no crash node.js application on "Error: JZ006: Caught IOException: com.sybase.jdbc3.jdbc.SybConnectionDeadException: JZ0C0: Connection is already closed"
+
+
+
 node-sybase
 ---------
 
