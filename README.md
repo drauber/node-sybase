@@ -24,14 +24,14 @@ install
 ### git
 
 ```bash
-git clone git://github.com/rodhoward/node-sybase.git
+git clone git://github.com/drauber/node-sybase.git
 cd node-sybase
 node-gyp configure build
 ```
 ### npm
 
 ```bash
-npm install sybase
+npm install sybasedrauber
 ```
 
 quick example
